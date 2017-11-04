@@ -1,0 +1,17 @@
+body{
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+.pagecontainer{
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pagetop{
+  background-image: url( ../images/background-glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+}
