@@ -69,3 +69,55 @@ body{
   text-align: center;
   margin: 1.5rem 5rem;
 }
+.pageicons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 3rem;
+  width: 100%;
+}
+#exams, #fittings, #delivery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 8rem;
+  width: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+#exams img{
+  width: 3.5rem;
+  height: auto;
+}
+#fittings img, #delivery img{
+  width: 5rem;
+  height: auto;
+}
+.pagetext{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 960px;
+  top: 3rem;
+  font-size: 1rem;
+}
+.philosophy, .appointments{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-left; 2.5%;
+  margin-right: 2.5%;
+}
+.philosophy h2, .appointments h2{
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+.footer{
+  
+}
