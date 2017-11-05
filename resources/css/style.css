@@ -119,5 +119,22 @@ body{
   padding-left: 1.25rem;
 }
 .footer{
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 4rem;
+  width: 960px;
+  height: 9.5rem;
+  background-color: azure;
+}
+.footer img{
+  height: 1.5rem;
+  width: auto;
+  margin-left: 4rem;
+}
+.footer p{
+  font-size: 1rem;
+  margin-left: 1rem;
 }
